@@ -56,6 +56,11 @@ Table of contents
 	margin-bottom: -40px;
 }
 
+.hero-row-white {
+	justify-content: center;
+	width: 100%;
+}
+
 /* Media Queries
 ------------------------------------------- */
 
