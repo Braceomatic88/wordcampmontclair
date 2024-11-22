@@ -1,0 +1,108 @@
+/* WordCamp Montclair 2025
+------------------------------------------- 
+
+Table of contents
+	- Variables
+	- Header
+	- Globals
+	- Front Page
+	- Media Queries
+
+------------------------------------------- */
+
+/* Variables
+-------------------------------------------- */
+
+:root {
+	--red: #CC5A40;
+	--black: #000;
+	--white: #fff;
+	--cream: #FBFAF3;
+	--gray: #476E6E;
+}
+
+/* Header
+-------------------------------------------- */
+
+/* Globals
+-------------------------------------------- */
+
+.wp-block-image {
+	position: relative;
+}
+
+.wp-block-image .wp-element-caption {
+	bottom: 0;
+	background-color: var(--black);
+	left: 0;
+	margin: 0;
+	padding: 8px 12px;
+	position: absolute;
+}
+
+/* Front Page
+-------------------------------------------- */
+
+.hero-row .has-custom-red-background-color {
+	background: #cc5a40 url(/wp-content/uploads/2024/11/Wapuu.webp) no-repeat right bottom/contain;
+	margin-bottom: 24px;
+}
+
+.hero-row .has-custom-red-background-color .wp-block-columns {
+	flex-direction: column-reverse;
+}
+
+.hero-img-col .wp-block-image {
+	margin-bottom: -40px;
+}
+
+/* Media Queries
+------------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+
+	/* Header
+	-------------------------------------------- */
+
+	.site-logo {
+		height: 131px;
+		left: 24px;
+		position: absolute;
+		top: 0;
+		width: 120px;
+		z-index: 9;
+	}
+
+	/* Front Page
+	-------------------------------------------- */
+
+	.hero-row {
+		margin-bottom: 48px !important;
+	}
+
+	.hero-row .has-custom-red-background-color .wp-block-columns {
+		flex-direction: inherit;
+		margin-bottom: 0;
+	}
+	
+	.hero-img-col .wp-block-image {
+		margin-bottom: -350px;
+	}
+
+	.hero-text-col > .wp-block-group {
+		max-width: 500px;
+	}
+
+	.hero-row .hero-text-col h1.wp-block-heading {
+		font-size: 56px !important;;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.has-custom-red-background-color .hero-text-col {
+		padding-top: 0 !important;
+	}
+
+}
