@@ -59,11 +59,10 @@ Table of contents
 	-------------------------------------------- */
 
 	.site-logo {
-		height: 131px;
 		left: 24px;
 		position: absolute;
 		top: 0;
-		width: 120px;
+		width: 200px;
 		z-index: 9;
 	}
 
