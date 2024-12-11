@@ -8,13 +8,10 @@ Table of contents
 	- Media Queries
 
 ------------------------------------------- */
-
 /* Header
 -------------------------------------------- */
-
 /* Globals
 -------------------------------------------- */
-
 .wp-block-image {
 	position: relative;
 }
@@ -30,9 +27,8 @@ Table of contents
 
 /* Front Page
 -------------------------------------------- */
-
 .hero-row .has-custom-red-background-color {
-	background: #cc5a40 url(/2025/files/2024/11/Wapuu.webp) no-repeat right bottom/contain;
+	background: #cc5a40 url('/2025/files/2024/11/Wapuu.webp') no-repeat right bottom/contain;
 	margin-bottom: 24px;
 	width: 100%;
 }
@@ -52,27 +48,23 @@ Table of contents
 
 /* Media Queries
 ------------------------------------------- */
-
 @media only screen and (min-width: 768px) {
-
 	/* Header
-	-------------------------------------------- */
-
+		-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
-		top: 0;
+		top: -40px;
 		width: 200px;
 		z-index: 9;
 	}
-
+	
 	/* Front Page
-	-------------------------------------------- */
-
+		-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
-
+	
 	.hero-row .has-custom-red-background-color .wp-block-columns {
 		flex-direction: inherit;
 		margin-bottom: 0;
@@ -81,21 +73,24 @@ Table of contents
 	.hero-img-col .wp-block-image {
 		margin-bottom: -350px;
 	}
-
+	
 	.hero-text-col > .wp-block-group {
 		max-width: 500px;
 	}
-
+	
 	.hero-row .hero-text-col h1.wp-block-heading {
-		font-size: 56px !important;;
+		font-size: 56px !important;
 	}
-
 }
 
 @media only screen and (max-width: 767px) {
-
 	.has-custom-red-background-color .hero-text-col {
 		padding-top: 0 !important;
 	}
+}
 
+@media only screen and (max-width: 500px) {
+	.site-logo {
+		width: 150px;
+	}
 }
