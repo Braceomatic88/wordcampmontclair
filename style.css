@@ -25,6 +25,10 @@ Table of contents
 	position: absolute;
 }
 
+.hidden-row {
+	display: none;
+}
+
 /* Front Page
 -------------------------------------------- */
 .hero-row .has-custom-red-background-color {
@@ -50,7 +54,7 @@ Table of contents
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Header
-		-------------------------------------------- */
+			-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -60,7 +64,7 @@ Table of contents
 	}
 	
 	/* Front Page
-		-------------------------------------------- */
+			-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
