@@ -22,6 +22,10 @@ textarea {
 	align-items: flex-start;
 }
 
+.wp-block-jetpack-contact-form .wp-block-columns {
+	margin-bottom: 0;
+}
+
 .wp-block-jetpack-contact-form .contact-form__input-error {
 	background-color: #b32e2e;
 	color: #fff;
@@ -151,7 +155,6 @@ a:hover,
 
 /* Organizers
 ------------------------------------------- */
-
 .organizers-list {
 	font-size: 18px;
 }
@@ -160,7 +163,7 @@ a:hover,
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 		position: relative;
@@ -183,7 +186,7 @@ a:hover,
 	}
 	
 	.subscribe-form .contact-form__error,
-		.subscribe-form .contact-form__input-error {
+			.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
 	
@@ -194,7 +197,7 @@ a:hover,
 	}
 	
 	/* Header
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -204,7 +207,7 @@ a:hover,
 	}
 	
 	/* Front Page
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
@@ -234,10 +237,9 @@ a:hover,
 	.recent-posts-wrap .recent-post {
 		width: calc((100% - 80px) / 3);
 	}
-
-	/* Organizers
-	------------------------------------------- */
 	
+	/* Organizers
+		------------------------------------------- */
 	.organizers-list ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -247,7 +249,7 @@ a:hover,
 	.organizers-list ul li {
 		display: flex;
 		margin-block-start: 0 !important;
-		width: calc( ( 100% - 40px ) / 2 );
+		width: calc((100% - 40px) / 2);
 	}
 	
 	.organizers-list ul li .wp-block-columns {
