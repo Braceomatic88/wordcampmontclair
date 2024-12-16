@@ -149,6 +149,13 @@ a:hover,
 	color: #cc5a40;
 }
 
+/* Organizers
+------------------------------------------- */
+
+.organizers-list {
+	font-size: 18px;
+}
+
 /* Media Queries
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
@@ -174,12 +181,12 @@ a:hover,
 	.subscribe-form .wp-block-button button {
 		border-radius: 0 40px 40px 0;
 	}
-
+	
 	.subscribe-form .contact-form__error,
-	.subscribe-form .contact-form__input-error {
+		.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
-
+	
 	.subscribe-form .contact-form__error {
 		bottom: -170px;
 		left: 0;
@@ -226,6 +233,25 @@ a:hover,
 	
 	.recent-posts-wrap .recent-post {
 		width: calc((100% - 80px) / 3);
+	}
+
+	/* Organizers
+	------------------------------------------- */
+	
+	.organizers-list ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+	
+	.organizers-list ul li {
+		display: flex;
+		margin-block-start: 0 !important;
+		width: calc( ( 100% - 40px ) / 2 );
+	}
+	
+	.organizers-list ul li .wp-block-columns {
+		margin-bottom: 0;
 	}
 }
 
