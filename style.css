@@ -94,6 +94,35 @@ a:hover,
 	padding: 0 !important;
 }
 
+/* Navigation
+-------------------------------------------- */
+.wp-block-navigation__container >.wp-block-navigation-item > .wp-block-navigation-item__content {
+	padding: 4px 0;
+}
+
+.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container {
+	left: 0;
+	right: unset;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+	border: 1px solid #000;
+	border-radius: 16px;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:first-of-type {
+	border-radius: 15px 15px 0 0;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:last-of-type {
+	border-radius: 0 0 15px 15px;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:focus,
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:hover {
+	background-color: rgb(71 110 110 / 50%);
+}
+
 /* Globals
 -------------------------------------------- */
 .wp-block-image {
@@ -183,7 +212,7 @@ a:hover,
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 		position: relative;
@@ -206,7 +235,7 @@ a:hover,
 	}
 	
 	.subscribe-form .contact-form__error,
-					.subscribe-form .contact-form__input-error {
+						.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
 	
@@ -217,7 +246,7 @@ a:hover,
 	}
 	
 	/* Header
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -227,7 +256,7 @@ a:hover,
 	}
 	
 	/* Front Page
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
@@ -259,7 +288,7 @@ a:hover,
 	}
 	
 	/* Organizers
-	------------------------------------------- */
+		------------------------------------------- */
 	.organizers-list ul {
 		display: flex;
 		flex-wrap: wrap;
