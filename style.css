@@ -18,6 +18,16 @@ textarea {
 	font-size: 18px;
 }
 
+.wp-block-jetpack-contact-form {
+	align-items: flex-start;
+}
+
+.wp-block-jetpack-contact-form .contact-form__input-error {
+	background-color: #b32e2e;
+	color: #fff;
+	padding: 8px;
+}
+
 .wp-block-jetpack-contact-form label {
 	font-size: 18px;
 }
@@ -143,9 +153,10 @@ a:hover,
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
+		position: relative;
 	}
 	
 	.subscribe-form .grunion-field-email-wrap {
@@ -163,9 +174,20 @@ a:hover,
 	.subscribe-form .wp-block-button button {
 		border-radius: 0 40px 40px 0;
 	}
+
+	.subscribe-form .contact-form__error,
+	.subscribe-form .contact-form__input-error {
+		position: absolute;
+	}
+
+	.subscribe-form .contact-form__error {
+		bottom: -170px;
+		left: 0;
+		width: 100%;
+	}
 	
 	/* Header
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -175,7 +197,7 @@ a:hover,
 	}
 	
 	/* Front Page
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
