@@ -47,11 +47,12 @@ textarea {
 	background-color: #cc5b40 !important;
 	border: 1px solid #cc5b40;
 	border-radius: 40px;
+	color: #fff;
 	font-size: 18px !important;
 	font-weight: 700 !important;
 	padding: 16px 32px !important;
 	transition: all .2s;
-	width: auto;
+	width: auto !important;
 }
 
 .wp-block-button__link:focus, 
@@ -64,6 +65,7 @@ textarea {
 .wp-block-jetpack-button:not(.is-style-outline) button:hover {
 	background-color: #000 !important;
 	border: 1px solid #000;
+	color: #fff;
 }
 
 a,
@@ -159,11 +161,24 @@ a:hover,
 	font-size: 18px;
 }
 
+/* Become a Sponsor
+-------------------------------------------- */
+
+.sponsor-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.sponsor-card .wp-block-buttons {
+	margin-top: auto;
+	padding-top: 24px;
+}
+
 /* Media Queries
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 		position: relative;
@@ -186,7 +201,7 @@ a:hover,
 	}
 	
 	.subscribe-form .contact-form__error,
-			.subscribe-form .contact-form__input-error {
+				.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
 	
@@ -197,7 +212,7 @@ a:hover,
 	}
 	
 	/* Header
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -207,7 +222,7 @@ a:hover,
 	}
 	
 	/* Front Page
-		-------------------------------------------- */
+	-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
@@ -239,7 +254,7 @@ a:hover,
 	}
 	
 	/* Organizers
-		------------------------------------------- */
+	------------------------------------------- */
 	.organizers-list ul {
 		display: flex;
 		flex-wrap: wrap;
