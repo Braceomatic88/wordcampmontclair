@@ -118,6 +118,10 @@ a:hover,
 	border-radius: 0 0 15px 15px;
 }
 
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item {
+	transition: all 0.2s;
+}
+
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:focus,
 .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container .wp-block-navigation-item:hover {
 	background-color: rgb(71 110 110 / 50%);
@@ -212,7 +216,7 @@ a:hover,
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-		-------------------------------------------- */
+			-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 		position: relative;
@@ -235,7 +239,7 @@ a:hover,
 	}
 	
 	.subscribe-form .contact-form__error,
-						.subscribe-form .contact-form__input-error {
+							.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
 	
@@ -246,7 +250,7 @@ a:hover,
 	}
 	
 	/* Header
-		-------------------------------------------- */
+			-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -256,7 +260,7 @@ a:hover,
 	}
 	
 	/* Front Page
-		-------------------------------------------- */
+			-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
@@ -288,7 +292,7 @@ a:hover,
 	}
 	
 	/* Organizers
-		------------------------------------------- */
+			------------------------------------------- */
 	.organizers-list ul {
 		display: flex;
 		flex-wrap: wrap;
