@@ -37,6 +37,7 @@ textarea {
 	font-weight: 700 !important;
 	padding: 16px 32px !important;
 	transition: all .2s;
+	width: auto;
 }
 
 .wp-block-button__link:focus, 
@@ -141,10 +142,8 @@ a:hover,
 /* Media Queries
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
-
 	/* Form Elements
-	-------------------------------------------- */
-
+		-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 	}
@@ -166,7 +165,7 @@ a:hover,
 	}
 	
 	/* Header
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -176,7 +175,7 @@ a:hover,
 	}
 	
 	/* Front Page
-	-------------------------------------------- */
+		-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
