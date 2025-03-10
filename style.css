@@ -250,11 +250,46 @@ a:hover,
 	padding-top: 24px;
 }
 
+/* Tickets
+-------------------------------------------- */
+/* .tix-js form {
+	border: 1px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.2);
+    border-radius: 10px;
+	padding: 24px;
+} */
+
+.tix-tickets-list {
+	border-spacing: 0;
+	width: 100%;
+}
+
+.tix-tickets-list thead th,
+.tix-tickets-list thead td {
+	border-bottom: 4px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.2);
+	padding-bottom: 24px;
+}
+
+.tix-tickets-list .tix-column-description {
+	font-weight: bold;
+}
+
+.tix-tickets-list tbody tr th,
+.tix-tickets-list tbody tr td {
+	border-bottom: 1px solid color(srgb 0.0666667 0.0666667 0.0666667 / 0.2);
+	padding-bottom: 24px;
+	padding-top: 24px;
+}
+
+.tix-column-quantity select {
+	padding: 8px;
+	width: 100%;
+}
+
 /* Media Queries
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 	/* Form Elements
-			-------------------------------------------- */
+	-------------------------------------------- */
 	.subscribe-form.wp-block-jetpack-contact-form {
 		gap: 0;
 		position: relative;
@@ -277,7 +312,7 @@ a:hover,
 	}
 	
 	.subscribe-form .contact-form__error,
-										.subscribe-form .contact-form__input-error {
+											.subscribe-form .contact-form__input-error {
 		position: absolute;
 	}
 	
@@ -288,7 +323,7 @@ a:hover,
 	}
 	
 	/* Header
-			-------------------------------------------- */
+	-------------------------------------------- */
 	.site-logo {
 		left: 24px;
 		position: absolute;
@@ -298,7 +333,7 @@ a:hover,
 	}
 	
 	/* Front Page
-			-------------------------------------------- */
+	-------------------------------------------- */
 	.hero-row {
 		margin-bottom: 48px !important;
 	}
@@ -339,7 +374,7 @@ a:hover,
 	}
 	
 	/* Organizers
-			------------------------------------------- */
+	------------------------------------------- */
 	.organizers-list ul {
 		display: flex;
 		flex-wrap: wrap;
