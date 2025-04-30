@@ -396,6 +396,16 @@ a:hover,
 	.has-custom-red-background-color .hero-text-col {
 		padding-top: 0 !important;
 	}
+
+	#tix-attendees ul {
+		margin-top: 0;
+		padding-left: 0;
+	}
+
+	#tix-attendees .tix-columns-3 li {
+		float: none;
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 500px) {
