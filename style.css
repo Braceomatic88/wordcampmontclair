@@ -285,6 +285,83 @@ a:hover,
 	width: 100%;
 }
 
+/* Schedule
+------------------------------------------- */
+
+#wordcamp-schedule__day-2025-06-28-tracks-all {
+	background-color: #fbfaf3;
+	border: 1px solid rgb(17, 17, 17, .1);
+	border-radius: 10px;
+	gap: 0;
+}
+
+.is-spanning-all-tracks .wordcamp-schedule__session-title {
+    justify-content: center;
+}
+
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header,
+.wordcamp-schedule__day {
+	background-color: transparent;
+}
+
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .editor-styles-wrapper h3.wordcamp-schedule__time-slot-header,body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session,body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__time-slot-header {
+	box-shadow: none;
+}
+
+.wordcamp-schedule__column-header.is-column-time,
+.wordcamp-schedule__column-header.is-column-track-auditorium {
+	border-right: 1px solid rgb(17, 17, 17, .1);
+}
+
+.wordcamp-schedule__time-slot-header,
+.wordcamp-schedule__time-slot-header.has-sessions,
+.wordcamp-schedule__session {
+	border: 1px solid rgb(17, 17, 17, .1);
+	border-left: none;
+}
+
+.wordcamp-schedule__session.has-slug-registration,
+.wordcamp-schedule__session.has-slug-lunch,
+.wordcamp-schedule__session.has-slug-closing-remarks {
+	border-bottom: none;
+}
+
+.wordcamp-schedule__time-slot-header {
+	border-bottom: none;
+	border-top: none;
+}
+
+.wordcamp-schedule__time-slot-header:first-of-type,
+.wordcamp-schedule__time-slot-header:nth-of-type(10),
+.wordcamp-schedule__time-slot-header:last-of-type {
+	border-bottom: none;
+}
+
+.wordcamp-schedule__session.has-track-classroom {
+	border-right: none;
+}
+
+.wordcamp-schedule__time-slot-header {
+    background-color: #000;
+}
+
+@media only screen and (max-width: 550px) {
+
+	.wordcamp-schedule__time-slot-header,
+	.wordcamp-schedule__time-slot-header.has-sessions,
+	.wordcamp-schedule__session {
+		border-bottom: none;
+		border-right: none;
+	}
+
+	.wordcamp-schedule__time-slot-header {
+	    background-color: #000;
+		color: #fff;
+		margin: 0;
+	}
+
+}
+
 /* Media Queries
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
