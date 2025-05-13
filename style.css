@@ -100,10 +100,20 @@ a:hover,
 	padding: 4px 0;
 }
 
+.wp-block-navigation__container >.wp-block-navigation-item > .wp-block-navigation-item__content:focus,
+.wp-block-navigation__container >.wp-block-navigation-item > .wp-block-navigation-item__content:hover {
+	color: #000;
+}
+
 .wp-block-navigation__container >.wp-block-navigation-item.button > .wp-block-navigation-item__content {
 	background-color: #000;
 	border-radius: 40px;
 	padding: 8px 16px;
+}
+
+.wp-block-navigation__container >.wp-block-navigation-item.button > .wp-block-navigation-item__content:focus,
+.wp-block-navigation__container >.wp-block-navigation-item.button > .wp-block-navigation-item__content:hover {
+	background-color: #fff;
 }
 
 .wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container {
