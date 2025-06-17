@@ -115,6 +115,7 @@ a:hover,
 .wp-block-navigation__container >.wp-block-navigation-item.button > .wp-block-navigation-item__content:focus,
 .wp-block-navigation__container >.wp-block-navigation-item.button > .wp-block-navigation-item__content:hover {
 	background-color: #fff;
+	color: #000;
 }
 
 .wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container {
